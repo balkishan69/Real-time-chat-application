@@ -10,7 +10,6 @@ app.get("/", function(req, res){
     res.render("page");
 });
 
-mongoose.connect('mongodb+srv://balkishanmandal30:<B@1234567890l>@cluster0.s5yvras.mongodb.net/?retryWrites=true&w=majority')
 
 // use our puclic/chat.js file as listener
 app.use(express.static(__dirname + '/public'));
